@@ -1,14 +1,38 @@
 <style>
+    body {
+        margin: 0;
+        padding: 0;
+    }
+
     .start {
+        position: relative;
         width: 100%;
         height: 500px;
         background: rgb(255,69,69);
         background: linear-gradient(270deg, rgba(255,69,69,1) 0%, rgba(255,97,145,1) 100%);
     }
 
+    .startimg {
+        width: 100px;
+        height: 100px;
+        position: absolute;
+        left: 50%;
+        top: 50%;
+        transform:translate(-50%, -50%);
+    }   
     
+    .bcont {
+        width: 100%;
+        min-height: 50px;
+        background-color: black;
+    }
 </style>
 
 <div class="start">
+    <img class="startimg" src="./cpu.png">
+</div>
+
+<div class="bcont">
     
 </div>
+
