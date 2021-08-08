@@ -2,6 +2,11 @@ body {
     margin: 0;
     padding: 0;
     font-family: 'Roboto', sans-serif;
+    user-select: none;
+}
+
+strong {
+    color: rgb(247, 169, 67);
 }
 
 .start {
@@ -20,8 +25,8 @@ body {
 }   
 
 .bcont {
-    padding: 10px;
-    width: 100%;
+    padding: 20px;
+    width: calc(100% - 40px);
     min-height: 50px;
     background-color: black;
 }
@@ -29,6 +34,8 @@ body {
 .bconttitle {
     color: white;
     margin: 0;
+    margin-left: 50%;
+    transform:translateX(-50%);
     text-align: center;
     font-size: 30px;
     font-weight: 100;
@@ -37,6 +44,9 @@ body {
 .bconttxt {
     color: white;
     text-align: center;
+    margin: 0;
+    margin-left: 50%;
+    transform:translateX(-50%);
 }
 
 .coverimg {
@@ -54,3 +64,15 @@ body {
     top: 0;
     backdrop-filter: blur(3px);
 }
+
+.bigtext {
+    color: white;
+    font-size: 17px;
+    font-weight: 100;
+    margin: 0;
+    margin-left: 50%;
+    margin-top: 100px;
+    transform:translateX(-50%);
+    text-align: center;
+}
+
